@@ -1,0 +1,158 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    background-color: rgb(190, 193, 228);
+}
+
+.thermo {
+    width: 600px;
+    height: 800px;
+    background-color: burlywood;
+    border: 20px solid peachpuff;
+    top: 45px;
+    left: 500px;
+    -webkit-box-shadow: 13px 7px 17px 13px rgba(114,96,23,0.82); 
+box-shadow: 13px 7px 17px 13px rgba(114,96,23,0.82);
+
+    
+}
+
+.rec-1 {
+    width: 450px;
+    height: 190px;
+    background-color: rgba(52, 100, 63, 0.479);
+    border: 38px solid rgb(217, 233, 214);
+    top: 150px;
+    left: 560px;
+    
+    -webkit-box-shadow: inset 0px 0px 22px 13px rgba(178,99,39,0.82); 
+box-shadow: inset 0px 0px 22px 13px rgba(178,99,39,0.82);
+
+
+background: linear-gradient(90deg, rgba(26,191,4,0.5578606442577031) 27%, rgba(221,156,13,0.8127626050420168) 100%);
+
+
+
+
+}
+
+.rec-1:hover{
+    transform: rotate(90deg);
+
+}
+
+.bigbutton {
+    width: 275px;
+    height: 275px;
+    background-color: rgba(14, 58, 21, 0.514);
+    top: 580px;
+    left: 680px;
+    border-radius: 50%;
+    border: 10px solid rgba(4, 29, 21, 0.596)
+        
+}
+
+
+
+.oval-1 {
+    width: 95px;
+    height: 50px;
+    background-color: rgba(20, 37, 23, 0.856);
+    top: 450px;
+    left: 990px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(4,17,191,0.5578606442577031) 27%, rgba(221,13,164,0.8127626050420168) 100%);
+
+
+}
+
+.oval-1:hover{
+    transform: rotate(180deg);
+
+}
+
+.oval-2:hover{
+    transform: rotate(180deg);
+
+}
+
+.oval-3:hover{
+    transform: rotate(180deg);
+
+}
+
+
+.oval-2 {
+    width: 95px;
+    height: 50px;
+    background-color: rgba(20, 37, 23, 0.856);
+    top: 510px;
+    left: 990px;
+    transform: rotate(10deg) scale(0.5, 2);
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(191,4,17,0.5578606442577031) 27%, rgba(221,194,13,0.8127626050420168) 100%);
+
+}
+
+.oval-3 {
+    width: 95px;
+    height: 50px;
+    background-color: rgba(20, 37, 23, 0.856);
+    top: 570px;
+    left: 990px;
+    transform: skew(10deg) rotate(10deg);
+    border-radius: 50%;
+}
+
+.circle-1 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(173, 196, 46);
+    top: 458px;
+    left: 955px;
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: movvee 1s infinite alternate;
+
+}
+
+.circle-2 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(35, 48, 107);
+    top: 518px;
+    left: 955px;
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: movvee 1s infinite alternate;
+
+}
+
+.upcircle {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(133, 32, 32);
+    top: 90px;
+    left: 1055px;
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: movvee 1s infinite alternate;
+}
+
+@keyframes movvee {
+    from {
+        filter: blur(1px);
+    } to {
+        filter: blur(20px);
+    }
+}
